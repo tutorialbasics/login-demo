@@ -1,17 +1,21 @@
 {
-  "name": "gruntdemo",
+  "name": "demoapp",
   "version": "0.0.0",
+  "authors": [
+    "Nirmal Sebastian <vsnirmal@gmail.com>"
+  ],
+  "description": "demo application",
   "license": "MIT",
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-route": "~1.4.7",
+    "bootstrap": "~3.3.5"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
-  ],
-  "dependencies": {
-    "angular": "~1.4.7",
-    "angular-route": "~1.4.7",
-    "bootstrap": "~3.3.5"
-  }
+  ]
 }

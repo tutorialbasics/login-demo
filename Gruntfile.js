@@ -102,7 +102,7 @@ grunt.registerTask('build', [
   'copy'
   ]);
 
-grunt.registerTask('run', [
+grunt.registerTask('default', [
   'build',
   'connect',
   'watch'
